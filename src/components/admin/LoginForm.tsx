@@ -68,9 +68,6 @@ const LoginForm: React.FC = () => {
               {error && (
                 <p className="mt-2 text-sm text-error">{error}</p>
               )}
-              <p className="mt-2 text-xs text-text-light">
-                <strong>Demo password:</strong> admin123
-              </p>
             </div>
             
             <Button 
