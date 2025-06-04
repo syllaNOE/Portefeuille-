@@ -148,6 +148,18 @@ const SettingsAdmin: React.FC = () => {
                 className="w-full p-2 border border-border rounded-md bg-background"
               />
             </div>
+
+            {/* Profile Image URL */}
+            <div>
+              <label className="block text-sm font-medium mb-1">Profile Image URL</label>
+              <input
+                type="url"
+                name="image"
+                value={profile.image}
+                onChange={handleProfileChange}
+                className="w-full p-2 border border-border rounded-md bg-background"
+              />
+            </div>
             
             <div>
               <label className="block text-sm font-medium mb-1">LinkedIn Username</label>
